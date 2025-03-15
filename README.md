@@ -711,7 +711,7 @@ python src/models/train_lora.py --train --rank 32 --alpha 64 --target-modules q_
 ```
 6. Обучение MLP-адаптеров:
 ```bash
-python src/models/train_mlp.py --train_model=True --evaluate_mlp=True --test_examples=True
+python src/models/train_mlp.py --train --evaluate-mlp --test-examples --hidden-dim 128 --num-layers 4 --batch-size 2 --grad-accum 8 --epochs 2
 ```
 7. Сравнение адаптеров:
 ```bash
