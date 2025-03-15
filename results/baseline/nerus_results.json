@@ -1,0 +1,3242 @@
+[
+  {
+    "text": "= Президент Белоруссии Александр Лукашенко выразил резкое недовольство моральным обликом украинских военных, действующих в зоне конфликта на юго-востоке страны.",
+    "true_entities": [
+      {
+        "text": "Белоруссии",
+        "type": "LOC"
+      },
+      {
+        "text": "Александр Лукашенко",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Белоруссии",
+        "type": "LOC"
+      },
+      {
+        "text": "[Белоруссии]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Белоруссии](LOC), [Александр Лукашенко](PER",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Джошуа является чемпионом мира по версиям Международной боксерской федерации (IBF), Всемирной боксерской ассоциации (WBA) и Всемирной боксерской организации (WBO) в супертяжелом весе.",
+    "true_entities": [
+      {
+        "text": "Джошуа",
+        "type": "PER"
+      },
+      {
+        "text": "Международной боксерской федерации ( IBF )",
+        "type": "ORG"
+      },
+      {
+        "text": "Всемирной боксерской ассоциации ( WBA )",
+        "type": "ORG"
+      },
+      {
+        "text": "Всемирной боксерской организации ( WBO )",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Джошуа",
+        "type": "PER"
+      },
+      {
+        "text": "[Джошуа]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Джошуа](PER), [Международной боксерской федер",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 3
+    }
+  },
+  {
+    "text": "= Итальянский модный дом Valentino представил капсульную коллекцию специально для Москвы.",
+    "true_entities": [
+      {
+        "text": "Valentino",
+        "type": "ORG"
+      },
+      {
+        "text": "Москвы",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Valentino",
+        "type": "ORG"
+      },
+      {
+        "text": "Москвы",
+        "type": "LOC"
+      },
+      {
+        "text": "[Valentino](ORG), [Москвы]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Valentino](ORG), [Москвы](LOC)def = Valentino",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= На заявления отреагировал также государственный секретарь при министре внутренних дел Лор Нуньес (Laurent Nuñez).",
+    "true_entities": [
+      {
+        "text": "Лор Нуньес ( Laurent Nuñez )",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Лор Нуньес",
+        "type": "PER"
+      },
+      {
+        "text": "[Лор Нуньес]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Лор Нуньес](PER) [Министре внутренних дел](ORG",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 2,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Президент США Дональд Трамп заявил, что не боится импичмента, так как не сделал ничего противозаконного.",
+    "true_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "Дональд Трамп",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "Дональд Трамп",
+        "type": "PER"
+      },
+      {
+        "text": "[США](LOC), [Дональд Трамп]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[США](LOC), [Дональд Трамп](PER)def [",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= «С момента получения нами информации о подготовке широкомасштабного наступления со стороны Украины наши подразделения доукомплектованы личным составом, обеспечены необходимым вооружением, техникой и боеприпасами», — указал Басурин.",
+    "true_entities": [
+      {
+        "text": "Украины",
+        "type": "LOC"
+      },
+      {
+        "text": "Басурин",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Басурин",
+        "type": "PER"
+      },
+      {
+        "text": "Украины",
+        "type": "LOC"
+      },
+      {
+        "text": "[Басурин](PER), [Украины]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Басурин](PER), [Украины](LOC)definew",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= На номере «Я 68 32 ММ» остались следы от удара, а в нескольких местах видны разрывы металла.",
+    "true_entities": [
+      {
+        "text": "Я 68 32 ММ",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Я 68 32 ММ",
+        "type": "ORG"
+      },
+      {
+        "text": "[Я 68 32 ММ]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Я 68 32 ММ](ORG) — нет, это номер телефона, а",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Инцидент произошел в городе Капьята, департамент Сентраль на западе страны.",
+    "true_entities": [
+      {
+        "text": "Капьята",
+        "type": "LOC"
+      },
+      {
+        "text": "Сентраль",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Капьята",
+        "type": "LOC"
+      },
+      {
+        "text": "Сентраль",
+        "type": "LOC"
+      },
+      {
+        "text": "[Капьята](LOC), [Сентраль]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Капьята](LOC), [Сентраль](LOC)def [С",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Ранее в декабре стало известно о закупке Росгвардией бронированных автомобилей «Урал-4320ВВ» на общую сумму 200 миллионов рублей.",
+    "true_entities": [
+      {
+        "text": "Росгвардией",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Росгвардией",
+        "type": "ORG"
+      },
+      {
+        "text": "[Росгвардией]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Росгвардией](ORG) [Урал-4320ВВ](ORG",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= По словам создателей, «Русское краткое» объединяет как известных кинематографистов, так и начинающих режиссеров, в частности популярных артистов кино, более известных зрителю по своим актерским работам.",
+    "true_entities": [
+      {
+        "text": "Русское краткое",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Русское краткое",
+        "type": "ORG"
+      },
+      {
+        "text": "[Русское краткое](ORG) [Русское краткое]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Русское краткое](ORG) [Русское краткое](ORG)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Иерей добавил, что по этому «экстраординарному» поводу будет созвана дисциплинарная комиссия, которая может временно отстранить Баскакова от священнослужения.",
+    "true_entities": [
+      {
+        "text": "Баскакова",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Иерей",
+        "type": "PER"
+      },
+      {
+        "text": "Баскакова",
+        "type": "PER"
+      },
+      {
+        "text": "[Иерей](PER), [Баскакова]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Иерей](PER), [Баскакова](PER)def =",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Соответствующие поправки в закон «О национальной платежной системе» были внесены в Госдуму группой депутатов.",
+    "true_entities": [
+      {
+        "text": "Госдуму",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Госдуму",
+        "type": "ORG"
+      },
+      {
+        "text": "[Госдуму](ORG) [Госдуму]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Госдуму](ORG) [Госдуму](ORG) [Госд",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Только создав достойные условия труда на местах, мы сможем поддержать тех, кто уже работает в наших учреждениях, и заинтересовать новых хороших специалистов», — сказал Матвеев.",
+    "true_entities": [
+      {
+        "text": "Матвеев",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Матвеев](PER)def Matveev",
+        "type": "PER"
+      }
+    ],
+    "full_response": "Матвеев](PER)def Matveev (PER)",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Председатель совета директоров «Альфа Групп» Михаил Фридман ведет переговоры о продаже Альфа-банка.",
+    "true_entities": [
+      {
+        "text": "Альфа Групп",
+        "type": "ORG"
+      },
+      {
+        "text": "Михаил Фридман",
+        "type": "PER"
+      },
+      {
+        "text": "Альфа-банка",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Альфа Групп",
+        "type": "ORG"
+      },
+      {
+        "text": "Михаил Фридман",
+        "type": "PER"
+      },
+      {
+        "text": "[Альфа Групп](ORG), [Михаил Фридман]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Альфа Групп](ORG), [Михаил Фридман](PER),",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Об этом передает ABC.",
+    "true_entities": [
+      {
+        "text": "ABC",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "ABC",
+        "type": "ORG"
+      },
+      {
+        "text": "= [ABC](ORG)def [ABC]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "= [ABC](ORG)def [ABC](ORG) — организация.](ORG",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Сейчас инцидент расследует ФБР.",
+    "true_entities": [
+      {
+        "text": "ФБР",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "ФБР",
+        "type": "ORG"
+      },
+      {
+        "text": "[ФБР](ORG)def [ФБР]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[ФБР](ORG)def [ФБР](ORG) — это организ",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Поэтому, на мой взгляд, введение туристического сбора в регионах, где туристический потенциал высок и перспективен, нецелесообразно», — сказал Брынцалов.",
+    "true_entities": [
+      {
+        "text": "Брынцалов",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Брынцалов",
+        "type": "PER"
+      },
+      {
+        "text": "Россия",
+        "type": "LOC"
+      },
+      {
+        "text": "[Брынцалов](PER) [Россия]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Брынцалов](PER) [Россия](LOC) [Россия",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= В России с начала года погибли около 19,5 тысячи человек.",
+    "true_entities": [
+      {
+        "text": "России",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "России",
+        "type": "LOC"
+      },
+      {
+        "text": "= [России](LOC) [России]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "= [России](LOC) [России](LOC) [Газпром",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Одна из пользователей Twitter заметила, что тоже могла кого-нибудь «найти», чтобы получить подобный сюрприз.",
+    "true_entities": [
+      {
+        "text": "Twitter",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Twitter](ORG)def Twitter",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Twitter](ORG)def Twitter (ORG)",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Япония избрала иероглиф, описывающий 2018 год, им стал 災 (sai), означающий «катастрофу» или «бедствие».",
+    "true_entities": [
+      {
+        "text": "Япония",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Япония",
+        "type": "LOC"
+      },
+      {
+        "text": "災",
+        "type": "ORG"
+      },
+      {
+        "text": "[Япония](LOC) [災]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Япония](LOC) [災](ORG) [Сущность](Тип",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Криминалисты ФСБ сначала получат фотографии частей обшивки, а потом и сами элементы.",
+    "true_entities": [
+      {
+        "text": "ФСБ",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "ФСБ",
+        "type": "ORG"
+      },
+      {
+        "text": "[ФСБ](ORG) [ФСБ]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[ФСБ](ORG) [ФСБ](ORG) [Криминалисты",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Мотивацию нашли: Лукашенко — пророссийский», — подчеркнул он.",
+    "true_entities": [
+      {
+        "text": "Лукашенко",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Лукашенко",
+        "type": "PER"
+      },
+      {
+        "text": "Российский",
+        "type": "ORG"
+      },
+      {
+        "text": "[Лукашенко](PER) [Российский]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Лукашенко](PER) [Российский](ORG) [Лукаш",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Юный участник проекта Сай Готани бросился к Кейт и поцеловал ее в щеку.",
+    "true_entities": [
+      {
+        "text": "Сай Готани",
+        "type": "PER"
+      },
+      {
+        "text": "Кейт",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Сай Готани",
+        "type": "PER"
+      },
+      {
+        "text": "Кейт",
+        "type": "PER"
+      },
+      {
+        "text": "[Сай Готани](PER), [Кейт]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Сай Готани](PER), [Кейт](PER)def [",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Подробный отчет о найденных ошибках опубликован на сайте компании-заказчика SafetyDetective.",
+    "true_entities": [
+      {
+        "text": "SafetyDetective",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "SafetyDetective",
+        "type": "ORG"
+      },
+      {
+        "text": "[SafetyDetective](ORG)definite]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[SafetyDetective](ORG)definite](ORG)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Для этого также упростят бюрократические процедуры для тех, кто хочет работать больше положенного, объявил премьер-министр страны Виктор Орбан.",
+    "true_entities": [
+      {
+        "text": "Виктор Орбан",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Виктор Орбан",
+        "type": "PER"
+      },
+      {
+        "text": "[Виктор Орбан](PER) [Виктор Орбан]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Виктор Орбан](PER) [Виктор Орбан](PER)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Уточняется, что шишки принадлежали гражданину Китая.",
+    "true_entities": [
+      {
+        "text": "Китая",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Китая",
+        "type": "LOC"
+      },
+      {
+        "text": "[Китая](LOC) [Китая]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Китая](LOC) [Китая](LOC) [Китая](LOC",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= В июле сообщалось, что в городе Золочев на Украине неизвестные разбили памятник классику русской литературы Александру Пушкину.",
+    "true_entities": [
+      {
+        "text": "Золочев",
+        "type": "LOC"
+      },
+      {
+        "text": "Украине",
+        "type": "LOC"
+      },
+      {
+        "text": "Александру Пушкину",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Александру Пушкину](PER), Золочев]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "Александру Пушкину](PER), Золочев](LOC), Украине](LOC",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 3
+    }
+  },
+  {
+    "text": "= 10 декабря президент Франции Эммануэль Макрон объявил о чрезвычайном экономическом и социальном положении в стране.",
+    "true_entities": [
+      {
+        "text": "Франции",
+        "type": "LOC"
+      },
+      {
+        "text": "Эммануэль Макрон",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Франции",
+        "type": "LOC"
+      },
+      {
+        "text": "Эммануэль Макрон",
+        "type": "PER"
+      },
+      {
+        "text": "[Франции](LOC), [Эммануэль Макрон]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Франции](LOC), [Эммануэль Макрон](PER)",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= «И, если Россия сейчас публично обсуждает \"Периметр\", это служит поводом для беспокойства остальных», — пишет издание.",
+    "true_entities": [
+      {
+        "text": "Россия",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Россия",
+        "type": "LOC"
+      },
+      {
+        "text": "Периметр",
+        "type": "ORG"
+      },
+      {
+        "text": "[Россия](LOC) [Периметр]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Россия](LOC) [Периметр](ORG) [Россия](",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= По словам Кононенко, дыра похожа на расползшегося паука.",
+    "true_entities": [
+      {
+        "text": "Кононенко",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Паука",
+        "type": "PER"
+      },
+      {
+        "text": "Кононенко](PER)def [Паука]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "Кононенко](PER)def [Паука](PER)",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 2,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= В феврале сообщалось, что в Санкт-Петербурге осудили двоих мужчин, напавших с ножом на курьера и отобравших у него пакет с пиццей.",
+    "true_entities": [
+      {
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      },
+      {
+        "text": "[Санкт-Петербурге](LOC) [Санкт-Петербурге]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Санкт-Петербурге](LOC) [Санкт-Петербурге](LOC)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Москва считает, что Южные Курилы вошли в состав СССР по итогам Второй мировой войны, и суверенитет над ними сомнению не подлежит.",
+    "true_entities": [
+      {
+        "text": "Москва",
+        "type": "LOC"
+      },
+      {
+        "text": "Южные Курилы",
+        "type": "LOC"
+      },
+      {
+        "text": "СССР",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Москва",
+        "type": "LOC"
+      },
+      {
+        "text": "Южные Курилы",
+        "type": "LOC"
+      },
+      {
+        "text": "[Москва](LOC), [Южные Курилы]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Москва](LOC), [Южные Курилы](LOC), [СССР",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= 13 декабря стало известно о том, что Бутина частично признала свою вину в заговоре против США.",
+    "true_entities": [
+      {
+        "text": "Бутина",
+        "type": "PER"
+      },
+      {
+        "text": "США",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Бутина",
+        "type": "PER"
+      },
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "[Бутина](PER), [США]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Бутина](PER), [США](LOC)def = [США",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= «Российская газета» узнала имя первого рэпера, который согласился принять участие в съемках новогоднего «Голубого огонька» на Первом канале.",
+    "true_entities": [
+      {
+        "text": "Российская газета",
+        "type": "ORG"
+      },
+      {
+        "text": "Первом канале",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Российская газета",
+        "type": "ORG"
+      },
+      {
+        "text": "Первом канале",
+        "type": "ORG"
+      },
+      {
+        "text": "[Российская газета](ORG), [Первом канале]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Российская газета](ORG), [Первом канале](ORG)",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Об этом он сообщил в интервью Fox News, фрагмент которого опубликовал на своей странице в Facebook.",
+    "true_entities": [
+      {
+        "text": "Fox News",
+        "type": "ORG"
+      },
+      {
+        "text": "Facebook",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Fox News",
+        "type": "ORG"
+      },
+      {
+        "text": "Facebook",
+        "type": "ORG"
+      },
+      {
+        "text": "[Fox News](ORG), [Facebook](ORG)def Fox News",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Fox News](ORG), [Facebook](ORG)def Fox News (ORG) —",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Президент Белоруссии Александр Лукашенко заявил, что Россия нарушила прежние договоренности относительно цены на газ.",
+    "true_entities": [
+      {
+        "text": "Белоруссии",
+        "type": "LOC"
+      },
+      {
+        "text": "Александр Лукашенко",
+        "type": "PER"
+      },
+      {
+        "text": "Россия",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Белоруссии",
+        "type": "LOC"
+      },
+      {
+        "text": "[Белоруссии]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Белоруссии](LOC), [Александр Лукашенко](PER",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= Капитан полиции Фил Таормина (Phil Taormina) заявил, что у инкассаторской машины сломался замок на задней двери.",
+    "true_entities": [
+      {
+        "text": "Фил Таормина ( Phil Taormina )",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Фил Таормина ( Phil Taormina )",
+        "type": "PER"
+      },
+      {
+        "text": "[Фил Таормина ( Phil Taormina )]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Фил Таормина ( Phil Taormina )](PER) [Фил Таорм",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Россия объявила персоной нон грата словацкого военного дипломата, передает  ТАСС в четверг, 13 декабря.",
+    "true_entities": [
+      {
+        "text": "Россия",
+        "type": "LOC"
+      },
+      {
+        "text": "ТАСС",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Россия",
+        "type": "LOC"
+      },
+      {
+        "text": "ТАСС",
+        "type": "ORG"
+      },
+      {
+        "text": "[Россия](LOC), [ТАСС]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Россия](LOC), [ТАСС](ORG)def [Т",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Они вылетели с базы морской пехоты США Ивакуни и проводили учебный полет.",
+    "true_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "Ивакуни",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "Ивакуни",
+        "type": "LOC"
+      },
+      {
+        "text": "[США](LOC) [Ивакуни]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[США](LOC) [Ивакуни](LOC) [США](LOC",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= В подтверждение этого Зайцев опубликовал соответствующие фото.",
+    "true_entities": [
+      {
+        "text": "Зайцев",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Газпром",
+        "type": "ORG"
+      },
+      {
+        "text": "Зайцев",
+        "type": "PER"
+      },
+      {
+        "text": "def [Газпром]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Зайцев (PER)def [Газпром](ORG)",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Об этом сообщается в пресс-службе Ростуризма.",
+    "true_entities": [
+      {
+        "text": "Ростуризма",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Ростуризма",
+        "type": "ORG"
+      },
+      {
+        "text": "[Ростуризма]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Ростуризма](ORG)def [Ростуризма](ORG",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Но тут можно говорить о том, что он в некотором смысле опозорил епархию, свой приход», — сказал Мищенко.",
+    "true_entities": [
+      {
+        "text": "Мищенко",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Мищенко](PER)def Мищенко]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "Мищенко](PER)def Мищенко](PER)",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= После этого случая Министерство юстиции Австралии начало расследование.",
+    "true_entities": [
+      {
+        "text": "Министерство юстиции",
+        "type": "ORG"
+      },
+      {
+        "text": "Австралии",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Министерство юстиции",
+        "type": "ORG"
+      },
+      {
+        "text": "Австралии",
+        "type": "LOC"
+      },
+      {
+        "text": "[Министерство юстиции](ORG), [Австралии]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Министерство юстиции](ORG), [Австралии](LOC)",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= На митинг верующих, проходящий в Киеве во время Объединительного собора украинской церкви, привезли организованные группы бюджетных работников.",
+    "true_entities": [
+      {
+        "text": "Киеве",
+        "type": "LOC"
+      },
+      {
+        "text": "Объединительного собора украинской церкви",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Киеве",
+        "type": "LOC"
+      },
+      {
+        "text": "Объединительного собора",
+        "type": "ORG"
+      },
+      {
+        "text": "[Киеве](LOC) [Объединительного собора]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Киеве](LOC) [Объединительного собора](ORG) [У",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Росгвардия потратит почти 200 миллионов рублей на покупку бронированных автомобилей «Урал-4320ВВ», применяемых для разгона митингов.",
+    "true_entities": [
+      {
+        "text": "Росгвардия",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Росгвардия",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Росгвардия (ORG)def [Урал-4320ВВ](ORG",
+    "metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Два человека погибли на американской антарктической станции Мак-Мердо.",
+    "true_entities": [
+      {
+        "text": "Мак-Мердо",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Мак-Мердо",
+        "type": "LOC"
+      },
+      {
+        "text": "[Мак-Мердо]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Мак-Мердо](LOC)def = [Мак-Мердо](",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Аналитики «Инкома» объясняют такую ситуацию кризисом и отмечают, что некоторые загородные продукты застройщикам приходится выводить в продажу по себестоимости.",
+    "true_entities": [
+      {
+        "text": "Инкома",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Инкома",
+        "type": "ORG"
+      },
+      {
+        "text": "[Инкома](ORG) » [Инкома]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Инкома](ORG) » [Инкома](ORG) » [США](",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= В Киеве сочли действия Москвы «актом военной агрессии», в ряде областей страны, граничащих с Россией и Приднестровьем, было введено военное положение.",
+    "true_entities": [
+      {
+        "text": "Киеве",
+        "type": "LOC"
+      },
+      {
+        "text": "Москвы",
+        "type": "LOC"
+      },
+      {
+        "text": "Россией",
+        "type": "LOC"
+      },
+      {
+        "text": "Приднестровьем",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Киеве",
+        "type": "LOC"
+      },
+      {
+        "text": "Москвы",
+        "type": "LOC"
+      },
+      {
+        "text": "[Киеве](LOC), [Москвы]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Киеве](LOC), [Москвы](LOC), [Россией",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= Евросоюз принял решение ужесточить пограничный контроль в связи с миграционным кризисом и усилением террористической угрозы.",
+    "true_entities": [
+      {
+        "text": "Евросоюз",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Евросоюз",
+        "type": "LOC"
+      },
+      {
+        "text": "» Евросоюз",
+        "type": "ORG"
+      },
+      {
+        "text": "» Евросоюз",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "Евросоюз (LOC) » Евросоюз (ORG) » Евросоюз (LOC)",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= По их данным, Трамп и председатель КНР Си Цзиньпин готовятся заключить соглашение, по которому Китай, помимо прочего, обязуется закупать больше американских соевых бобов и СПГ.",
+    "true_entities": [
+      {
+        "text": "Трамп",
+        "type": "PER"
+      },
+      {
+        "text": "КНР",
+        "type": "LOC"
+      },
+      {
+        "text": "Си Цзиньпин",
+        "type": "PER"
+      },
+      {
+        "text": "Китай",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Трамп",
+        "type": "PER"
+      },
+      {
+        "text": "КНР",
+        "type": "LOC"
+      },
+      {
+        "text": "[Трамп](PER), [КНР]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Трамп](PER), [КНР](LOC), [Си Цзин",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= Они были спущены в Катманду, где родственники кремировали их тела, а затем перевезли прах в Исландию.",
+    "true_entities": [
+      {
+        "text": "Катманду",
+        "type": "LOC"
+      },
+      {
+        "text": "Исландию",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Катманду",
+        "type": "LOC"
+      },
+      {
+        "text": "Исландию",
+        "type": "LOC"
+      },
+      {
+        "text": "[Катманду](LOC), [Исландию]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Катманду](LOC), [Исландию](LOC)def",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= США остались недовольны восстановлением в должности председателя Государственной фискальной службы (ГФС) Украины Романа Насирова и полагают, что проводимые киевскими властями судебная и антикоррупционная реформы далеки от совершенства.",
+    "true_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "Государственной фискальной службы ( ГФС )",
+        "type": "ORG"
+      },
+      {
+        "text": "Украины",
+        "type": "LOC"
+      },
+      {
+        "text": "Романа Насирова",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "[США]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[США](LOC), [Государственной фискальной службы ( ГФ",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 3
+    }
+  },
+  {
+    "text": "= Как передает Страна.ua, глава государства заявил, что предстоятель будет носить титул Митрополит Киевский и всея Украины.",
+    "true_entities": [
+      {
+        "text": "Страна . ua",
+        "type": "ORG"
+      },
+      {
+        "text": "Украины",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Страна.ua",
+        "type": "ORG"
+      },
+      {
+        "text": "Украины",
+        "type": "LOC"
+      },
+      {
+        "text": "[Страна.ua](ORG), [Украины]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Страна.ua](ORG), [Украины](LOC)def [Мит",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= «Проверка по Ольге Глацких завершена.",
+    "true_entities": [
+      {
+        "text": "Ольге Глацких",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Ольге Глацких",
+        "type": "PER"
+      },
+      {
+        "text": "Глацких",
+        "type": "PER"
+      },
+      {
+        "text": "[Ольге Глацких](PER) [Глацких]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Ольге Глацких](PER) [Глацких](PER) [",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Сотрудники таможни задержали игрока российского футбольного клуба при досмотре пассажиров рейса Рим — Москва в аэропорту Шереметьево.",
+    "true_entities": [
+      {
+        "text": "Рим",
+        "type": "LOC"
+      },
+      {
+        "text": "Москва",
+        "type": "LOC"
+      },
+      {
+        "text": "Шереметьево",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Шереметьево",
+        "type": "LOC"
+      },
+      {
+        "text": "Москва",
+        "type": "LOC"
+      },
+      {
+        "text": "[Шереметьево](LOC), [Москва]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Шереметьево](LOC), [Москва](LOC)def =",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Церковный раскол на Украине обострился несколько месяцев назад.",
+    "true_entities": [
+      {
+        "text": "Украине",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Украине",
+        "type": "LOC"
+      },
+      {
+        "text": "Церковный раскол",
+        "type": "ORG"
+      },
+      {
+        "text": "[Украине](LOC) [Церковный раскол]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Украине](LOC) [Церковный раскол](ORG) [Укра",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= В президиуме собора заседал президент Украины Петр Порошенко, на мероприятии присутствовал бывший глава государства Виктор Ющенко.",
+    "true_entities": [
+      {
+        "text": "Украины",
+        "type": "LOC"
+      },
+      {
+        "text": "Петр Порошенко",
+        "type": "PER"
+      },
+      {
+        "text": "Виктор Ющенко",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Украины",
+        "type": "LOC"
+      },
+      {
+        "text": "Петр Порошенко",
+        "type": "PER"
+      },
+      {
+        "text": "[Украины](LOC), [Петр Порошенко]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Украины](LOC), [Петр Порошенко](PER), [Вик",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Юрловой-Перхт в числе обвиняемых не было.",
+    "true_entities": [
+      {
+        "text": "Юрловой-Перхт",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Юрловой-Перхт",
+        "type": "PER"
+      },
+      {
+        "text": "def",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Юрловой-Перхт (PER)def (ORG)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Также в ходе пресс-конференции для российских журналистов президент Белоруссии осудил моральный облик украинских военных, действующих в Донбассе.",
+    "true_entities": [
+      {
+        "text": "Белоруссии",
+        "type": "LOC"
+      },
+      {
+        "text": "Донбассе",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Белоруссии",
+        "type": "LOC"
+      },
+      {
+        "text": "Донбассе",
+        "type": "LOC"
+      },
+      {
+        "text": "[Белоруссии](LOC), [Донбассе]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Белоруссии](LOC), [Донбассе](LOC)",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= По его мнению, президент Франции захотел успокоить бурное возмущение народа «раздачей денег» и обошел вниманием проблемы безработных, людей с частичной занятостью, пенсионеров, госслужащих и студентов.",
+    "true_entities": [
+      {
+        "text": "Франции",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Франции",
+        "type": "LOC"
+      },
+      {
+        "text": "Путину",
+        "type": "PER"
+      },
+      {
+        "text": "[Франции](LOC) [Путину]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Франции](LOC) [Путину](PER) [Газпром](",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Глава Чеченской республики Рамзан Кадыров отреагировал на отчет Счетной палаты касательно эффективности исполнения федеральной целевой программы (ФЦП) по развитию Северного Кавказа.",
+    "true_entities": [
+      {
+        "text": "Чеченской республики",
+        "type": "LOC"
+      },
+      {
+        "text": "Рамзан Кадыров",
+        "type": "PER"
+      },
+      {
+        "text": "Счетной палаты",
+        "type": "ORG"
+      },
+      {
+        "text": "Северного Кавказа",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Чеченской республики",
+        "type": "LOC"
+      },
+      {
+        "text": "[Чеченской республики]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Чеченской республики](LOC), [Рамзан Кадыров",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 3
+    }
+  },
+  {
+    "text": "= По его словам, именно первый президент России убедил его проще реагировать на критику.",
+    "true_entities": [
+      {
+        "text": "России",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "России",
+        "type": "LOC"
+      },
+      {
+        "text": "[России](LOC) [России]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[России](LOC) [России](LOC) [России](LOC",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Палата представителей конгресса США единогласно приняла резолюцию, направленную против проекта газопровода «Северный поток-2», сообщает Bloomberg.",
+    "true_entities": [
+      {
+        "text": "Палата представителей",
+        "type": "ORG"
+      },
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "Bloomberg",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "Палата представителей",
+        "type": "ORG"
+      },
+      {
+        "text": "[США](LOC), [Палата представителей]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[США](LOC), [Палата представителей](ORG), [США](LOC",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Демократы и оппозиционные СМИ предсказывают главе государства импичмент по нескольким причинам.",
+    "true_entities": [
+      {
+        "text": "СМИ",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Демократы",
+        "type": "LOC"
+      },
+      {
+        "text": ", СМИ",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "Демократы — LOC, СМИ — LOC, СМИ — LOC, Дем",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 2,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Командующий Уральским округом Росгвардии генерал-лейтенант Александр Попов получил на погоны третью шитую звезду и стал генерал-полковником.",
+    "true_entities": [
+      {
+        "text": "Уральским округом",
+        "type": "ORG"
+      },
+      {
+        "text": "Росгвардии",
+        "type": "ORG"
+      },
+      {
+        "text": "Александр Попов",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Уральским округом",
+        "type": "LOC"
+      },
+      {
+        "text": "Росгвардии",
+        "type": "ORG"
+      },
+      {
+        "text": "[Уральским округом](LOC), [Росгвардии]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Уральским округом](LOC), [Росгвардии](ORG), [А",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= Об этом сообщает Daily Mail.",
+    "true_entities": [
+      {
+        "text": "Daily Mail",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Daily Mail](ORG)defail]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Daily Mail](ORG)defail](ORG)",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= В посте Тэй назвал поведение сотрудников ресторана «антипраздничным» и разрушающим традиции.",
+    "true_entities": [
+      {
+        "text": "Тэй",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Тэй",
+        "type": "PER"
+      },
+      {
+        "text": "def",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Тэй (PER)def (ORG)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Об этом в четверг, 13 декабря, сообщает NBC News.",
+    "true_entities": [
+      {
+        "text": "NBC News",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "NBC News",
+        "type": "ORG"
+      },
+      {
+        "text": "News",
+        "type": "ORG"
+      },
+      {
+        "text": "[NBC News](ORG)def [News]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[NBC News](ORG)def [News](ORG)",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= С нового года в «Просвещении» запустят сервис по сбору комментариев и замечаний к публикуемым издательствами материалам.",
+    "true_entities": [
+      {
+        "text": "Просвещении",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Просвещении",
+        "type": "ORG"
+      },
+      {
+        "text": "[Просвещении](ORG) [Просвещении]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Просвещении](ORG) [Просвещении](ORG) [Матери",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Согласно рейтингу портала «Мир квартир», Московский район Санкт-Петербурга занимает пятое место в списке локаций города с самым дорогим жильем, уступая Петроградской стороне, Центральному, Василеостровскому и Адмиралтейскому районам.",
+    "true_entities": [
+      {
+        "text": "Мир квартир",
+        "type": "ORG"
+      },
+      {
+        "text": "Московский район",
+        "type": "LOC"
+      },
+      {
+        "text": "Санкт-Петербурга",
+        "type": "LOC"
+      },
+      {
+        "text": "Петроградской стороне",
+        "type": "LOC"
+      },
+      {
+        "text": "Центральному",
+        "type": "LOC"
+      },
+      {
+        "text": "Василеостровскому",
+        "type": "LOC"
+      },
+      {
+        "text": "Адмиралтейскому районам",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Мир квартир",
+        "type": "ORG"
+      },
+      {
+        "text": "Московский район",
+        "type": "LOC"
+      },
+      {
+        "text": "[Мир квартир](ORG), [Московский район]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Мир квартир](ORG), [Московский район](LOC), [Санкт",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.2857142857142857,
+      "f1": 0.4,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 5
+    }
+  },
+  {
+    "text": "= Об этом он сообщил РБК.",
+    "true_entities": [
+      {
+        "text": "РБК",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "РБК",
+        "type": "ORG"
+      },
+      {
+        "text": "= [РБК](ORG)def = [РБК]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "= [РБК](ORG)def = [РБК](ORG)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Отмечается, что Шакира не первая знаменитость, у которой возникли проблемы с налоговыми органами Испании.",
+    "true_entities": [
+      {
+        "text": "Шакира",
+        "type": "PER"
+      },
+      {
+        "text": "Испании",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Шакира",
+        "type": "PER"
+      },
+      {
+        "text": "Испании",
+        "type": "LOC"
+      },
+      {
+        "text": "[Шакира](PER), [Испании]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Шакира](PER), [Испании](LOC)def = [Ш",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Этот стратегический объект также необходим албанским сепаратистам и силам НАТО.",
+    "true_entities": [
+      {
+        "text": "НАТО",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "НАТО",
+        "type": "ORG"
+      },
+      {
+        "text": "[НАТО](ORG)def = [НАТО]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[НАТО](ORG)def = [НАТО](ORG) — организ",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Парламентарии намерены запретить публиковать в СМИ и интернете недостоверную информацию, которая «создает угрозу жизни и здоровью граждан», а также грозит «массовым нарушением общественного порядка».",
+    "true_entities": [
+      {
+        "text": "СМИ",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "СМИ",
+        "type": "ORG"
+      },
+      {
+        "text": "[СМИ](ORG) [СМИ]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[СМИ](ORG) [СМИ](ORG) [СМИ](ORG",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Чиновник Федеральной службы по надзору в сфере транспорта потерял работу после того, как выяснилось, что его жена купила 66 машин неизвестно на какие деньги.",
+    "true_entities": [
+      {
+        "text": "Федеральной службы по надзору в сфере транспорта",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Федеральной службы по надзору в сфере транспорта]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Федеральной службы по надзору в сфере транспорта](ORG)def",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Такое ощущение, что им было плевать на всех, они просто парковали автомобили посреди магистрали», — рассказала Даниель Шах (Danielle Shah), проезжавшая мимо на автобусе.",
+    "true_entities": [
+      {
+        "text": "Даниель Шах ( Danielle Shah )",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Даниель Шах ( Danielle Shah )",
+        "type": "PER"
+      },
+      {
+        "text": "[Даниель Шах ( Danielle Shah )]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Даниель Шах ( Danielle Shah )](PER) [Автобусе](",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Видео инцидента опубликовал в своем Twitter-аккаунте журналист Чарли Марлоу.",
+    "true_entities": [
+      {
+        "text": "Twitter-аккаунте",
+        "type": "ORG"
+      },
+      {
+        "text": "Чарли Марлоу",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Чарли Марлоу",
+        "type": "PER"
+      },
+      {
+        "text": "Twitter-аккаунте",
+        "type": "ORG"
+      },
+      {
+        "text": "[Чарли Марлоу](PER) [Twitter-аккаунте]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Чарли Марлоу](PER) [Twitter-аккаунте](ORG)",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= «Я написал, что мы, жители поселка Быструха, вынуждены будем перекрыть живым щитом железную дорогу, и обещал, что приглашу центральную прессу и телевидение, — рассказал он журналистам.",
+    "true_entities": [
+      {
+        "text": "Быструха",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Быструха",
+        "type": "LOC"
+      },
+      {
+        "text": "Центральную прессу",
+        "type": "ORG"
+      },
+      {
+        "text": "[Быструха](LOC) [Центральную прессу]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Быструха](LOC) [Центральную прессу](ORG) [",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Это был человек, источающий радость, он дарил улыбки, юмор в нем бесконечно буйствовал фейерверком, и вдруг такая неожиданная смерть», — сказал Петросян.",
+    "true_entities": [
+      {
+        "text": "Петросян",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Петросян",
+        "type": "PER"
+      },
+      {
+        "text": "[Петросян](PER) [Петросян]",
+        "type": "PER"
+      }
+    ],
+    "full_response": "[Петросян](PER) [Петросян](PER) [П",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Правительственные войска, выступающие под предводительством президента страны Башара Асада, противостоят умеренной оппозиции и разнообразным исламским группировкам.",
+    "true_entities": [
+      {
+        "text": "Башара Асада",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Башара Асада",
+        "type": "PER"
+      },
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "[Башара Асада](PER) [США]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Башара Асада](PER) [США](LOC) [США](",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Ближайшим преследователем Санчо можно назвать его одноклубника Марко Ройса.",
+    "true_entities": [
+      {
+        "text": "Санчо",
+        "type": "PER"
+      },
+      {
+        "text": "Марко Ройса",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Санчо",
+        "type": "PER"
+      },
+      {
+        "text": ", Марко Ройса",
+        "type": "PER"
+      },
+      {
+        "text": ".def",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "Санчо — PER, Марко Ройса — PER.def — LOC)",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= Истекая кровью, он пропустил несколько ударов локтем от Айял, после чего постучал, сигнализируя рефери о сдаче.",
+    "true_entities": [
+      {
+        "text": "Айял",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Айял",
+        "type": "PER"
+      },
+      {
+        "text": "def",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Айял (PER)def (ORG)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Как объяснили ведущие, путаница получилась из-за того, что ярославский корреспондент, сделавший сюжет, использовал «не совсем удачный художественный прием», а информацию о том, что телеканал хотел ввести зрителей в заблуждение, опубликовали СМИ «определенного толка».",
+    "true_entities": [
+      {
+        "text": "СМИ",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "СМИ",
+        "type": "ORG"
+      },
+      {
+        "text": "[СМИ](ORG) » [СМИ]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[СМИ](ORG) » [СМИ](ORG) » [СМИ",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= В августе спасатели Карачаево-Черкесии спустили с Эльбруса тело альпинистки, погибшей, предположительно, при восхождении на самую высокую гору Европы 31 год назад.",
+    "true_entities": [
+      {
+        "text": "Карачаево-Черкесии",
+        "type": "LOC"
+      },
+      {
+        "text": "Эльбруса",
+        "type": "LOC"
+      },
+      {
+        "text": "Европы",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Карачаево-Черкесии",
+        "type": "LOC"
+      },
+      {
+        "text": "[Карачаево-Черкесии]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Карачаево-Черкесии](LOC), [Эльбруса",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= Участников коллектива, отправившихся в тур по регионам России, задерживала полиция, а их концерты по разным причинам отменялись.",
+    "true_entities": [
+      {
+        "text": "России",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "России",
+        "type": "LOC"
+      },
+      {
+        "text": "[России](LOC) [России]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[России](LOC) [России](LOC) [России](LOC",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Об этом рассказал глава Синодального отдела внешних церковных связей митрополит Иларион на православном портале «Иисус».",
+    "true_entities": [
+      {
+        "text": "Синодального отдела внешних церковных связей",
+        "type": "ORG"
+      },
+      {
+        "text": "Иларион",
+        "type": "PER"
+      },
+      {
+        "text": "Иисус",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Синодального отдела внешних церковных связей",
+        "type": "ORG"
+      },
+      {
+        "text": "[Синодального отдела внешних церковных связей]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Синодального отдела внешних церковных связей](ORG), [И",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= В кафе «Райская трапеза» на Ленинском проспекте в Москве произошла перестрелка.",
+    "true_entities": [
+      {
+        "text": "Райская трапеза",
+        "type": "ORG"
+      },
+      {
+        "text": "Ленинском проспекте",
+        "type": "LOC"
+      },
+      {
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Райская трапеза",
+        "type": "ORG"
+      },
+      {
+        "text": "[Райская трапеза]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Райская трапеза](ORG), [Ленинском проспекте",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= С 2016 года он защищал цвета «Кайрата», вместе с которым дважды завоевывал серебряные медали чемпионата.",
+    "true_entities": [
+      {
+        "text": "Кайрата",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Кайрата",
+        "type": "ORG"
+      },
+      {
+        "text": "[Кайрата](ORG)def [Кайрата]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Кайрата](ORG)def [Кайрата](ORG) —",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= 25 ноября пограничное управление ФСБ России задержало в районе Керченского пролива три корабля Военно-морских сил Украины, которые пересекли российскую границу и не реагировали на требования остановиться.",
+    "true_entities": [
+      {
+        "text": "ФСБ",
+        "type": "ORG"
+      },
+      {
+        "text": "России",
+        "type": "LOC"
+      },
+      {
+        "text": "Керченского пролива",
+        "type": "LOC"
+      },
+      {
+        "text": "Военно-морских сил",
+        "type": "ORG"
+      },
+      {
+        "text": "Украины",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "ФСБ",
+        "type": "ORG"
+      },
+      {
+        "text": "России",
+        "type": "LOC"
+      },
+      {
+        "text": "[ФСБ](ORG), [России]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[ФСБ](ORG), [России](LOC), [Военно-морских",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.4,
+      "f1": 0.5,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 3
+    }
+  },
+  {
+    "text": "= Об этом сообщает Seattle Times.",
+    "true_entities": [
+      {
+        "text": "Seattle Times",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Seattle Times",
+        "type": "ORG"
+      },
+      {
+        "text": "def Seattle",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "Seattle Times (ORG)def Seattle (LOC)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= В городе Батайск Ростовской области мужчина напал с ножом на судебного пристава.",
+    "true_entities": [
+      {
+        "text": "Батайск",
+        "type": "LOC"
+      },
+      {
+        "text": "Ростовской области",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Батайск",
+        "type": "LOC"
+      },
+      {
+        "text": "Ростовской области",
+        "type": "LOC"
+      },
+      {
+        "text": "[Батайск](LOC), [Ростовской области]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Батайск](LOC), [Ростовской области](LOC)def",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Об этом сообщает РИА Новости в четверг, 13 декабря.",
+    "true_entities": [
+      {
+        "text": "РИА Новости",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "РИА Новости",
+        "type": "ORG"
+      },
+      {
+        "text": "Россия",
+        "type": "LOC"
+      },
+      {
+        "text": "[РИА Новости](ORG) [Россия]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[РИА Новости](ORG) [Россия](LOC) [Декабре",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Сообщалось, что соглашение, если оно будет подписано, может способствовать возобновлению ранее замороженных проектов по добыче и сжижению природного газа на территории США.",
+    "true_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "[США](LOC) [США](LOC) [США]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[США](LOC) [США](LOC) [США](LOC) [С",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Футболист также призывается в сборную Англии.",
+    "true_entities": [
+      {
+        "text": "Англии",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Англии",
+        "type": "LOC"
+      },
+      {
+        "text": "[Англии](LOC)def [Англии]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Англии](LOC)def [Англии](LOC) —",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= «Я думаю, что с ней обращались как с террористом, что-то в этом роде», — сказала Захарова.",
+    "true_entities": [
+      {
+        "text": "Захарова",
+        "type": "PER"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Захарова",
+        "type": "PER"
+      },
+      {
+        "text": "Россия",
+        "type": "LOC"
+      },
+      {
+        "text": "[Захарова](PER)def [Россия]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Захарова](PER)def [Россия](LOC)",
+    "metrics": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Кредитор выиграл иски к нему в российских, а затем и Высоком суде Лондона.",
+    "true_entities": [
+      {
+        "text": "Высоком суде",
+        "type": "ORG"
+      },
+      {
+        "text": "Лондона",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Высоком суде Лондона",
+        "type": "ORG"
+      },
+      {
+        "text": "[Высоком суде Лондона]",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "[Высоком суде Лондона](ORG)def = [Высоком",
+    "metrics": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "true_positives": 0,
+      "false_positives": 2,
+      "false_negatives": 2
+    }
+  },
+  {
+    "text": "= Из шахты в Кемеровской области, где произошло возгорание ленточного конвейера, спасатели вывели всех 118 горняков.",
+    "true_entities": [
+      {
+        "text": "Кемеровской области",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Кемеровской области",
+        "type": "LOC"
+      },
+      {
+        "text": "[Кемеровской области](LOC) [Кемеровской области]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Кемеровской области](LOC) [Кемеровской области](LOC) [С",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Больше всего семей, испытывающих трудности с платежами по услугам ЖКХ, проживают в Ставропольском крае.",
+    "true_entities": [
+      {
+        "text": "Ставропольском крае",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Ставропольском крае",
+        "type": "LOC"
+      },
+      {
+        "text": "[Ставропольском крае]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Ставропольском крае](LOC)def = [Ставрополь",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  {
+    "text": "= Их на картах как минимум две: союзное сухопутное командование в Измире и авиабаза Инджирлик, на которой размещен самый большой запас ядерных гравитационных бомб США B61 за пределами страны, отмечает исследователь.",
+    "true_entities": [
+      {
+        "text": "Измире",
+        "type": "LOC"
+      },
+      {
+        "text": "Инджирлик",
+        "type": "LOC"
+      },
+      {
+        "text": "США",
+        "type": "LOC"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Измире",
+        "type": "LOC"
+      },
+      {
+        "text": "США",
+        "type": "LOC"
+      },
+      {
+        "text": "[Измире](LOC), [США]",
+        "type": "LOC"
+      }
+    ],
+    "full_response": "[Измире](LOC), [США](LOC), [Инджирлик](LOC",
+    "metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 1
+    }
+  },
+  {
+    "text": "= В свою очередь, Росгвардия пополнилась одним генерал-полковником, тремя генерал-лейтенантами и девятью генерал-майорами.",
+    "true_entities": [
+      {
+        "text": "Росгвардия",
+        "type": "ORG"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "text": "Росгвардия",
+        "type": "ORG"
+      },
+      {
+        "text": "def",
+        "type": "ORG"
+      }
+    ],
+    "full_response": "Росгвардия (ORG)def (ORG)",
+    "metrics": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  }
+]

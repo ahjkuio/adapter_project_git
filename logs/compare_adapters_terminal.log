@@ -1,0 +1,320 @@
+2025-03-15 18:21:50,759 [INFO] Запуск сравнения адаптеров...
+2025-03-15 18:21:50,759 [INFO] Загружаем метрики TERRa...
+2025-03-15 18:21:50,759 [WARNING] Файл с метриками не найден: /home/ahjkuio/adapter_project/models/lora/terra_metrics.json
+2025-03-15 18:21:50,759 [WARNING] Файл с метриками не найден: /home/ahjkuio/adapter_project/models/lora/terra_metrics.json
+2025-03-15 18:21:50,759 [WARNING] Файл с метриками не найден: /home/ahjkuio/adapter_project/models/mlp/terra_metrics.json
+2025-03-15 18:21:50,759 [INFO] Загружаем метрики Nerus...
+2025-03-15 18:21:50,759 [WARNING] Файл с метриками не найден: /home/ahjkuio/adapter_project/models/lora/nerus_metrics.json
+2025-03-15 18:21:50,759 [WARNING] Файл с метриками не найден: /home/ahjkuio/adapter_project/models/lora/nerus_metrics.json
+2025-03-15 18:21:50,759 [WARNING] Файл с метриками не найден: /home/ahjkuio/adapter_project/models/mlp/nerus_metrics.json
+2025-03-15 18:21:50,759 [ERROR] Не удалось загрузить метрики для всех адаптеров. Убедитесь, что оба адаптера обучены и оценены.
+2025-03-15 18:30:02,622 [INFO] Запуск сравнения адаптеров...
+2025-03-15 18:30:02,622 [INFO] Загружаем метрики для базовой модели...
+2025-03-15 18:30:02,622 [INFO] Загружаем метрики для LoRA адаптеров...
+2025-03-15 18:30:02,622 [INFO] Загружаем метрики для MLP адаптеров...
+2025-03-15 18:30:02,622 [ERROR] Не удалось загрузить метрики для всех адаптеров. Убедитесь, что оба адаптера обучены и оценены.
+2025-03-15 18:30:38,294 [INFO] Запуск сравнения адаптеров...
+2025-03-15 18:30:38,294 [INFO] Загружаем метрики для базовой модели...
+2025-03-15 18:30:38,294 [INFO] Загружаем метрики для LoRA адаптеров...
+2025-03-15 18:30:38,294 [INFO] Загружаем метрики для MLP адаптеров...
+2025-03-15 18:30:38,294 [ERROR] Не удалось загрузить метрики для всех адаптеров. Убедитесь, что оба адаптера обучены и оценены.
+2025-03-15 18:36:17,994 [INFO] Структура директорий с моделями:
+2025-03-15 18:36:17,995 [INFO] Содержимое директории lora:
+2025-03-15 18:36:17,995 [INFO]   - r4_alpha8/ (папка)
+2025-03-15 18:36:17,995 [INFO]     - lora_metrics.json
+2025-03-15 18:36:17,995 [INFO]     - all_results.json
+2025-03-15 18:36:17,995 [INFO]     - tokenizer_config.json
+2025-03-15 18:36:17,995 [INFO]     - adapter_config.json
+2025-03-15 18:36:17,995 [INFO]     - train_results.json
+2025-03-15 18:36:17,995 [INFO]     - tokenizer.json
+2025-03-15 18:36:17,995 [INFO]     - eval_results.json
+2025-03-15 18:36:17,995 [INFO]     - special_tokens_map.json
+2025-03-15 18:36:17,995 [INFO]   - r8_alpha16/ (папка)
+2025-03-15 18:36:18,009 [INFO]     - lora_metrics.json
+2025-03-15 18:36:18,009 [INFO]     - all_results.json
+2025-03-15 18:36:18,009 [INFO]     - tokenizer_config.json
+2025-03-15 18:36:18,009 [INFO]     - adapter_config.json
+2025-03-15 18:36:18,009 [INFO]     - train_results.json
+2025-03-15 18:36:18,009 [INFO]     - tokenizer.json
+2025-03-15 18:36:18,009 [INFO]     - eval_results.json
+2025-03-15 18:36:18,009 [INFO]     - special_tokens_map.json
+2025-03-15 18:36:18,009 [INFO] Содержимое директории mlp:
+2025-03-15 18:36:18,009 [INFO]   - checkpoint-400/ (папка)
+2025-03-15 18:36:18,009 [INFO]     - trainer_state.json
+2025-03-15 18:36:18,009 [INFO]     - tokenizer_config.json
+2025-03-15 18:36:18,009 [INFO]     - tokenizer.json
+2025-03-15 18:36:18,009 [INFO]     - special_tokens_map.json
+2025-03-15 18:36:18,009 [INFO]   - checkpoint-500/ (папка)
+2025-03-15 18:36:18,010 [INFO]     - trainer_state.json
+2025-03-15 18:36:18,010 [INFO]     - tokenizer_config.json
+2025-03-15 18:36:18,010 [INFO]     - tokenizer.json
+2025-03-15 18:36:18,010 [INFO]     - special_tokens_map.json
+2025-03-15 18:36:18,010 [INFO]   - mlp_adapters_config.json
+2025-03-15 18:36:18,010 [INFO]   - checkpoint-562/ (папка)
+2025-03-15 18:36:18,010 [INFO]     - trainer_state.json
+2025-03-15 18:36:18,010 [INFO]     - tokenizer_config.json
+2025-03-15 18:36:18,010 [INFO]     - tokenizer.json
+2025-03-15 18:36:18,010 [INFO]     - special_tokens_map.json
+2025-03-15 18:36:18,010 [INFO]   - all_results.json
+2025-03-15 18:36:18,010 [INFO]   - train_results.json
+2025-03-15 18:36:18,010 [INFO]   - eval_results.json
+2025-03-15 18:36:18,010 [INFO] Запуск сравнения адаптеров...
+2025-03-15 18:36:18,010 [INFO] Загружаем метрики для базовой модели...
+2025-03-15 18:36:18,010 [INFO] Загружаем метрики для LoRA адаптеров...
+2025-03-15 18:36:18,010 [INFO] Загружаем метрики для MLP адаптеров...
+2025-03-15 18:36:18,010 [INFO] Найденные метрики:
+2025-03-15 18:36:18,010 [INFO] Базовая модель: обнаружены метрики
+2025-03-15 18:36:18,010 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 18:36:18,010 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 18:36:18,010 [INFO] LoRA адаптеры: обнаружены метрики
+2025-03-15 18:36:18,010 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 18:36:18,011 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 18:36:18,011 [INFO] MLP адаптеры: метрики не найдены
+2025-03-15 18:36:18,011 [WARNING] Метрики MLP адаптеров не найдены. Будет выполнено только сравнение LoRA с базовой моделью.
+2025-03-15 18:40:13,322 [INFO] Структура директорий с моделями:
+2025-03-15 18:40:13,322 [INFO] Содержимое директории lora:
+2025-03-15 18:40:13,322 [INFO]   - r4_alpha8/ (папка)
+2025-03-15 18:40:13,322 [INFO]     - lora_metrics.json
+2025-03-15 18:40:13,322 [INFO]     - all_results.json
+2025-03-15 18:40:13,322 [INFO]     - tokenizer_config.json
+2025-03-15 18:40:13,322 [INFO]     - adapter_config.json
+2025-03-15 18:40:13,322 [INFO]     - train_results.json
+2025-03-15 18:40:13,322 [INFO]     - tokenizer.json
+2025-03-15 18:40:13,323 [INFO]     - eval_results.json
+2025-03-15 18:40:13,323 [INFO]     - special_tokens_map.json
+2025-03-15 18:40:13,323 [INFO]   - r8_alpha16/ (папка)
+2025-03-15 18:40:13,323 [INFO]     - lora_metrics.json
+2025-03-15 18:40:13,323 [INFO]     - all_results.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer_config.json
+2025-03-15 18:40:13,323 [INFO]     - adapter_config.json
+2025-03-15 18:40:13,323 [INFO]     - train_results.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer.json
+2025-03-15 18:40:13,323 [INFO]     - eval_results.json
+2025-03-15 18:40:13,323 [INFO]     - special_tokens_map.json
+2025-03-15 18:40:13,323 [INFO] Содержимое директории mlp:
+2025-03-15 18:40:13,323 [INFO]   - checkpoint-400/ (папка)
+2025-03-15 18:40:13,323 [INFO]     - trainer_state.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer_config.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer.json
+2025-03-15 18:40:13,323 [INFO]     - special_tokens_map.json
+2025-03-15 18:40:13,323 [INFO]   - checkpoint-500/ (папка)
+2025-03-15 18:40:13,323 [INFO]     - trainer_state.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer_config.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer.json
+2025-03-15 18:40:13,323 [INFO]     - special_tokens_map.json
+2025-03-15 18:40:13,323 [INFO]   - mlp_adapters_config.json
+2025-03-15 18:40:13,323 [INFO]   - checkpoint-562/ (папка)
+2025-03-15 18:40:13,323 [INFO]     - trainer_state.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer_config.json
+2025-03-15 18:40:13,323 [INFO]     - tokenizer.json
+2025-03-15 18:40:13,323 [INFO]     - special_tokens_map.json
+2025-03-15 18:40:13,323 [INFO]   - all_results.json
+2025-03-15 18:40:13,323 [INFO]   - train_results.json
+2025-03-15 18:40:13,324 [INFO]   - eval_results.json
+2025-03-15 18:40:13,324 [INFO] Запуск сравнения адаптеров...
+2025-03-15 18:40:13,324 [INFO] Загружаем метрики для базовой модели...
+2025-03-15 18:40:13,324 [INFO] Загружаем метрики для LoRA адаптеров...
+2025-03-15 18:40:13,324 [INFO] Загружаем метрики для MLP адаптеров...
+2025-03-15 18:40:13,324 [INFO] Найден файл с метриками MLP: /home/ahjkuio/adapter_project/models/mlp/all_results.json
+2025-03-15 18:40:13,324 [INFO] Преобразуем метрики из all_results.json для MLP
+2025-03-15 18:40:13,324 [INFO] Сконвертированные метрики: {'terra': {'accuracy': None, 'precision': None, 'recall': None, 'f1': None}, 'nerus': {'precision': None, 'recall': None, 'f1': None}}
+2025-03-15 18:40:13,324 [INFO] Найденные метрики:
+2025-03-15 18:40:13,324 [INFO] Базовая модель: обнаружены метрики
+2025-03-15 18:40:13,324 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 18:40:13,324 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 18:40:13,324 [INFO] LoRA адаптеры: обнаружены метрики
+2025-03-15 18:40:13,324 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 18:40:13,324 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 18:40:13,324 [INFO] MLP адаптеры: обнаружены метрики
+2025-03-15 18:40:13,324 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 18:40:13,324 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 18:40:13,326 [INFO] Отчет сохранен в /home/ahjkuio/adapter_project/results/comparison/adapters_comparison_20250315_184013.txt
+2025-03-15 18:40:13,326 [INFO] Сравнение адаптеров завершено!
+2025-03-15 19:38:13,296 [INFO] Структура директорий с моделями:
+2025-03-15 19:38:13,296 [INFO] Содержимое директории lora:
+2025-03-15 19:38:13,296 [INFO]   - r4_alpha8/ (папка)
+2025-03-15 19:38:13,296 [INFO]     - lora_metrics.json
+2025-03-15 19:38:13,296 [INFO]     - all_results.json
+2025-03-15 19:38:13,296 [INFO]     - tokenizer_config.json
+2025-03-15 19:38:13,296 [INFO]     - adapter_config.json
+2025-03-15 19:38:13,296 [INFO]     - train_results.json
+2025-03-15 19:38:13,296 [INFO]     - tokenizer.json
+2025-03-15 19:38:13,296 [INFO]     - eval_results.json
+2025-03-15 19:38:13,297 [INFO]     - special_tokens_map.json
+2025-03-15 19:38:13,297 [INFO]   - r8_alpha16/ (папка)
+2025-03-15 19:38:13,297 [INFO]     - lora_metrics.json
+2025-03-15 19:38:13,297 [INFO]     - all_results.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer_config.json
+2025-03-15 19:38:13,297 [INFO]     - adapter_config.json
+2025-03-15 19:38:13,297 [INFO]     - train_results.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer.json
+2025-03-15 19:38:13,297 [INFO]     - eval_results.json
+2025-03-15 19:38:13,297 [INFO]     - special_tokens_map.json
+2025-03-15 19:38:13,297 [INFO] Содержимое директории mlp:
+2025-03-15 19:38:13,297 [INFO]   - checkpoint-400/ (папка)
+2025-03-15 19:38:13,297 [INFO]     - trainer_state.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer_config.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer.json
+2025-03-15 19:38:13,297 [INFO]     - special_tokens_map.json
+2025-03-15 19:38:13,297 [INFO]   - checkpoint-500/ (папка)
+2025-03-15 19:38:13,297 [INFO]     - trainer_state.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer_config.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer.json
+2025-03-15 19:38:13,297 [INFO]     - special_tokens_map.json
+2025-03-15 19:38:13,297 [INFO]   - mlp_adapters_config.json
+2025-03-15 19:38:13,297 [INFO]   - checkpoint-562/ (папка)
+2025-03-15 19:38:13,297 [INFO]     - trainer_state.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer_config.json
+2025-03-15 19:38:13,297 [INFO]     - tokenizer.json
+2025-03-15 19:38:13,297 [INFO]     - special_tokens_map.json
+2025-03-15 19:38:13,297 [INFO]   - all_results.json
+2025-03-15 19:38:13,298 [INFO]   - train_results.json
+2025-03-15 19:38:13,298 [INFO]   - eval_results.json
+2025-03-15 19:38:13,298 [INFO]   - mlp_metrics.json
+2025-03-15 19:38:13,298 [INFO] Запуск сравнения адаптеров...
+2025-03-15 19:38:13,298 [INFO] Загружаем метрики для базовой модели...
+2025-03-15 19:38:13,298 [INFO] Загружаем метрики для LoRA адаптеров...
+2025-03-15 19:38:13,298 [INFO] Загружаем метрики для MLP адаптеров...
+2025-03-15 19:38:13,298 [INFO] Найден файл с метриками MLP: /home/ahjkuio/adapter_project/models/mlp/mlp_metrics.json
+2025-03-15 19:38:13,298 [INFO] Загружены метрики MLP из файла /home/ahjkuio/adapter_project/models/mlp/mlp_metrics.json
+2025-03-15 19:38:13,298 [INFO] Найденные метрики:
+2025-03-15 19:38:13,298 [INFO] Базовая модель: обнаружены метрики
+2025-03-15 19:38:13,298 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 19:38:13,298 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 19:38:13,298 [INFO] LoRA адаптеры: обнаружены метрики
+2025-03-15 19:38:13,298 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 19:38:13,298 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 19:38:13,298 [INFO] MLP адаптеры: обнаружены метрики
+2025-03-15 19:38:13,298 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 19:38:13,298 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 19:38:13,300 [INFO] Отчет сохранен в /home/ahjkuio/adapter_project/results/comparison/adapters_comparison_20250315_193813.txt
+2025-03-15 19:38:13,300 [INFO] Сравнение адаптеров завершено!
+2025-03-15 20:20:08,607 [INFO] Структура директорий с моделями:
+2025-03-15 20:20:08,683 [INFO] Содержимое директории lora:
+2025-03-15 20:20:08,683 [INFO]   - r4_alpha8/ (папка)
+2025-03-15 20:20:08,683 [INFO]     - lora_metrics.json
+2025-03-15 20:20:08,683 [INFO]     - all_results.json
+2025-03-15 20:20:08,683 [INFO]     - tokenizer_config.json
+2025-03-15 20:20:08,683 [INFO]     - adapter_config.json
+2025-03-15 20:20:08,683 [INFO]     - train_results.json
+2025-03-15 20:20:08,683 [INFO]     - tokenizer.json
+2025-03-15 20:20:08,684 [INFO]     - eval_results.json
+2025-03-15 20:20:08,684 [INFO]     - special_tokens_map.json
+2025-03-15 20:20:08,684 [INFO]   - r8_alpha16/ (папка)
+2025-03-15 20:20:08,684 [INFO]     - lora_metrics.json
+2025-03-15 20:20:08,684 [INFO]     - all_results.json
+2025-03-15 20:20:08,684 [INFO]     - tokenizer_config.json
+2025-03-15 20:20:08,684 [INFO]     - adapter_config.json
+2025-03-15 20:20:08,684 [INFO]     - train_results.json
+2025-03-15 20:20:08,684 [INFO]     - tokenizer.json
+2025-03-15 20:20:08,684 [INFO]     - eval_results.json
+2025-03-15 20:20:08,684 [INFO]     - special_tokens_map.json
+2025-03-15 20:20:08,684 [INFO] Содержимое директории mlp:
+2025-03-15 20:20:08,684 [INFO]   - checkpoint-400/ (папка)
+2025-03-15 20:20:08,684 [INFO]     - trainer_state.json
+2025-03-15 20:20:08,684 [INFO]     - tokenizer_config.json
+2025-03-15 20:20:08,684 [INFO]     - tokenizer.json
+2025-03-15 20:20:08,684 [INFO]     - special_tokens_map.json
+2025-03-15 20:20:08,684 [INFO]   - checkpoint-500/ (папка)
+2025-03-15 20:20:08,685 [INFO]     - trainer_state.json
+2025-03-15 20:20:08,685 [INFO]     - tokenizer_config.json
+2025-03-15 20:20:08,685 [INFO]     - tokenizer.json
+2025-03-15 20:20:08,685 [INFO]     - special_tokens_map.json
+2025-03-15 20:20:08,685 [INFO]   - mlp_adapters_config.json
+2025-03-15 20:20:08,685 [INFO]   - checkpoint-562/ (папка)
+2025-03-15 20:20:08,685 [INFO]     - trainer_state.json
+2025-03-15 20:20:08,685 [INFO]     - tokenizer_config.json
+2025-03-15 20:20:08,685 [INFO]     - tokenizer.json
+2025-03-15 20:20:08,685 [INFO]     - special_tokens_map.json
+2025-03-15 20:20:08,685 [INFO]   - all_results.json
+2025-03-15 20:20:08,685 [INFO]   - train_results.json
+2025-03-15 20:20:08,685 [INFO]   - eval_results.json
+2025-03-15 20:20:08,685 [INFO]   - mlp_metrics.json
+2025-03-15 20:20:08,685 [INFO] Запуск сравнения адаптеров...
+2025-03-15 20:20:08,685 [INFO] Загружаем метрики для базовой модели...
+2025-03-15 20:20:08,686 [INFO] Загружаем метрики для LoRA адаптеров...
+2025-03-15 20:20:08,686 [INFO] Загружаем метрики для MLP адаптеров...
+2025-03-15 20:20:08,686 [INFO] Найден файл с метриками MLP: /home/ahjkuio/adapter_project/models/mlp/mlp_metrics.json
+2025-03-15 20:20:08,686 [INFO] Загружены метрики MLP из файла /home/ahjkuio/adapter_project/models/mlp/mlp_metrics.json
+2025-03-15 20:20:08,686 [INFO] Найденные метрики:
+2025-03-15 20:20:08,686 [INFO] Базовая модель: обнаружены метрики
+2025-03-15 20:20:08,686 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 20:20:08,686 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 20:20:08,686 [INFO] LoRA адаптеры: обнаружены метрики
+2025-03-15 20:20:08,686 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 20:20:08,686 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 20:20:08,686 [INFO] MLP адаптеры: обнаружены метрики
+2025-03-15 20:20:08,686 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 20:20:08,686 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 20:20:08,689 [INFO] Отчет сохранен в /home/ahjkuio/adapter_project/results/comparison/adapters_comparison_20250315_202008.txt
+2025-03-15 20:20:08,689 [INFO] Сравнение адаптеров завершено!
+2025-03-15 22:04:56,851 [INFO] Структура директорий с моделями:
+2025-03-15 22:04:56,873 [INFO] Содержимое директории lora:
+2025-03-15 22:04:56,873 [INFO]   - r4_alpha8/ (папка)
+2025-03-15 22:04:56,873 [INFO]     - lora_metrics.json
+2025-03-15 22:04:56,873 [INFO]     - all_results.json
+2025-03-15 22:04:56,873 [INFO]     - tokenizer_config.json
+2025-03-15 22:04:56,874 [INFO]     - adapter_config.json
+2025-03-15 22:04:56,874 [INFO]     - train_results.json
+2025-03-15 22:04:56,874 [INFO]     - tokenizer.json
+2025-03-15 22:04:56,874 [INFO]     - eval_results.json
+2025-03-15 22:04:56,874 [INFO]     - special_tokens_map.json
+2025-03-15 22:04:56,874 [INFO]   - r32_alpha64/ (папка)
+2025-03-15 22:04:56,874 [INFO]     - lora_metrics.json
+2025-03-15 22:04:56,874 [INFO]     - all_results.json
+2025-03-15 22:04:56,874 [INFO]     - tokenizer_config.json
+2025-03-15 22:04:56,874 [INFO]     - adapter_config.json
+2025-03-15 22:04:56,874 [INFO]     - train_results.json
+2025-03-15 22:04:56,874 [INFO]     - tokenizer.json
+2025-03-15 22:04:56,874 [INFO]     - eval_results.json
+2025-03-15 22:04:56,874 [INFO]     - special_tokens_map.json
+2025-03-15 22:04:56,874 [INFO]   - r8_alpha16/ (папка)
+2025-03-15 22:04:56,874 [INFO]     - lora_metrics.json
+2025-03-15 22:04:56,875 [INFO]     - all_results.json
+2025-03-15 22:04:56,875 [INFO]     - tokenizer_config.json
+2025-03-15 22:04:56,875 [INFO]     - adapter_config.json
+2025-03-15 22:04:56,875 [INFO]     - train_results.json
+2025-03-15 22:04:56,875 [INFO]     - tokenizer.json
+2025-03-15 22:04:56,875 [INFO]     - eval_results.json
+2025-03-15 22:04:56,875 [INFO]     - special_tokens_map.json
+2025-03-15 22:04:56,875 [INFO] Содержимое директории mlp:
+2025-03-15 22:04:56,875 [INFO]   - checkpoint-400/ (папка)
+2025-03-15 22:04:56,875 [INFO]     - trainer_state.json
+2025-03-15 22:04:56,875 [INFO]     - tokenizer_config.json
+2025-03-15 22:04:56,875 [INFO]     - tokenizer.json
+2025-03-15 22:04:56,875 [INFO]     - special_tokens_map.json
+2025-03-15 22:04:56,875 [INFO]   - checkpoint-500/ (папка)
+2025-03-15 22:04:56,875 [INFO]     - trainer_state.json
+2025-03-15 22:04:56,875 [INFO]     - tokenizer_config.json
+2025-03-15 22:04:56,875 [INFO]     - tokenizer.json
+2025-03-15 22:04:56,875 [INFO]     - special_tokens_map.json
+2025-03-15 22:04:56,875 [INFO]   - mlp_adapters_config.json
+2025-03-15 22:04:56,876 [INFO]   - checkpoint-562/ (папка)
+2025-03-15 22:04:56,876 [INFO]     - trainer_state.json
+2025-03-15 22:04:56,876 [INFO]     - tokenizer_config.json
+2025-03-15 22:04:56,876 [INFO]     - tokenizer.json
+2025-03-15 22:04:56,876 [INFO]     - special_tokens_map.json
+2025-03-15 22:04:56,876 [INFO]   - all_results.json
+2025-03-15 22:04:56,876 [INFO]   - train_results.json
+2025-03-15 22:04:56,876 [INFO]   - eval_results.json
+2025-03-15 22:04:56,876 [INFO]   - mlp_metrics.json
+2025-03-15 22:04:56,876 [INFO] Запуск сравнения адаптеров...
+2025-03-15 22:04:56,876 [INFO] Загружаем метрики для базовой модели...
+2025-03-15 22:04:56,906 [INFO] Загружаем метрики для LoRA адаптеров...
+2025-03-15 22:04:56,906 [INFO] Найден файл с метриками LoRA: /home/ahjkuio/adapter_project/models/lora/r32_alpha64/lora_metrics.json
+2025-03-15 22:04:56,906 [INFO] Загружаем метрики для MLP адаптеров...
+2025-03-15 22:04:56,906 [INFO] Найден файл с метриками MLP: /home/ahjkuio/adapter_project/models/mlp/mlp_metrics.json
+2025-03-15 22:04:56,918 [INFO] Загружены метрики MLP из файла /home/ahjkuio/adapter_project/models/mlp/mlp_metrics.json
+2025-03-15 22:04:56,918 [INFO] Метрики LoRA отличаются от метрик базовой модели, что является ожидаемым поведением.
+2025-03-15 22:04:56,918 [INFO] Найденные метрики:
+2025-03-15 22:04:56,918 [INFO] Базовая модель: обнаружены метрики
+2025-03-15 22:04:56,918 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 22:04:56,918 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 22:04:56,918 [INFO] LoRA адаптеры: обнаружены метрики
+2025-03-15 22:04:56,918 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 22:04:56,918 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 22:04:56,918 [INFO] MLP адаптеры: обнаружены метрики
+2025-03-15 22:04:56,918 [INFO]   - TERRa: ['accuracy', 'precision', 'recall', 'f1']
+2025-03-15 22:04:56,918 [INFO]   - Nerus: ['precision', 'recall', 'f1']
+2025-03-15 22:04:56,921 [INFO] Отчет сохранен в /home/ahjkuio/adapter_project/results/comparison/adapters_comparison_20250315_220456.txt
+2025-03-15 22:04:56,921 [INFO] Сравнение адаптеров завершено!
